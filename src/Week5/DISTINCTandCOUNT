@@ -1,0 +1,9 @@
+--SELECT DISTINCT replacement_cost FROM film;--replacement_cost içinde kaç farklı tip oldğunu gösterir.
+--select COUNT (*) from film;
+--select COUNT (DISTINCT length) from film;--birbirinden farklı değerlerin sayısını gösteriri lengthte
+
+
+--SELECT COUNT(*) FROM actor
+--where first_name LIKE 'A%';--A ile başlayan isimlerin kaç tane olduğunu gösterir. COUNT
+
+--SELECT DISTINCT first_name FROM actor;
