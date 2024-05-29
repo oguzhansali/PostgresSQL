@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/Week5/LIMITandOFFSET" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/OrderBy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/ödev5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/AggregateFonksiyonlar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/ödev6.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5/BetweenIn" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/BetweenIn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5/DISTINCTandCOUNT" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/DISTINCTandCOUNT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5/LIKEandILIKE" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/LIKEandILIKE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5/ödev3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/ödev3.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5/ödev4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/ödev4.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716930830020</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".">
+      <option name="closed" value="true" />
+      <created>1716994022467</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716994022467</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

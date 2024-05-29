@@ -1,0 +1,19 @@
+--SELECT MAX(replacement_cost) FROM film;
+
+--SELECT MIN(replacement_cost) FROM film;
+
+--SELECT MAX(rental_rate) FROM film;
+
+--SELECT MIN(replacement_cost) FROM film;
+
+--select  ROUND(AVG (length),3) from film;-- ortlamasını alınır round(x,number)number kadarvirgülden sorna değer alınır.
+
+--select  SUM (rental_rate) from film;--rental_rate sütünundaki tüm verileri toplar.7
+
+--select MAX(length),MIN(length),SUM (replacement_cost) from film;
+
+--select MAX(length) from film
+--where rental_rate IN(0.99,2.99);
+
+--select MAX(length) from film
+--where rental_rate=0.99;
