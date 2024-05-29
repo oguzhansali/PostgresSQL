@@ -1,0 +1,19 @@
+select * from film//veriyi seçer
+WHERE rental_rate=4.99//koşul eklenerek
+order by length//nasıl sıralanması gerektiği
+LIMIT 20;//kaç tane veri
+
+select * from film
+where replacement_cost = 14.99 and rental_rate=0.99
+order by length desc
+LIMIT 7;
+
+SELECT * FROM country //COUNTRY den
+OFFSET 6//ilk 6 terim atlanır
+LIMIT 4;//ve sonraki 4 terim sıralanır.
+
+SELECT * FROM actor
+where first_name='Penelope'
+order by last_name
+offset 2
+LIMIT 1;

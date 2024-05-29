@@ -1,5 +1,8 @@
---SELECT * FROM public.customer
---WHERE first_name LIKE 'D%n' and last_name LIKE 'A%';--solda veya sağda olarak başlangıç veya sondaki şekilde biten demek.
+SELECT * FROM public.customer
+WHERE first_name LIKE 'D%n' and last_name LIKE 'A%';//solda veya sağda olarak başlangıç veya sondaki şekilde biten demek.
 
 SELECT * FROM public.customer
-WHERE first_name ~~* 't_m';--Karakter sayısı kadar _ ile terim ayarlanır. ~~=LIKE VE ~~*ile büyük küück karakter farkını  ortadan kaldırır.
+WHERE first_name ~~* 't_m';//Karakter sayısı kadar _ ile terim ayarlanır. ~~=LIKE VE ~~*ile büyük küück karakter farkını  ortadan kaldırır.
+
+select * from film
+where title ILIKE '%a%a+';// içinde en az 2 tane a bulunan title döner.

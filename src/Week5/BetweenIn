@@ -1,18 +1,18 @@
---select title,length from film
---where length >=90 and length<=120;
+select title,length from film
+where length >=90 and length<=120;
 
 
---select title,length from film
---where length not between 90 and 120;
+select title,length from film
+where length not between 90 and 120;
 
---select title,length from film
---where length<90 or length>120;
+select title,length from film
+where length<90 or length>120;
 
---select rental_rate, replacement_cost from film
---where (rental_rate between 2 and 4) and (replacement_cost between 10 and 20);
+select rental_rate, replacement_cost from film
+where (rental_rate between 2 and 4) and (replacement_cost between 10 and 20);
 
---select * from film
---WHERE length =40 or length=50 or length=60;--where length IN (40, 50, 60);
+select * from film
+WHERE length =40 or length=50 or length=60;--where length IN (40, 50, 60);
 
 select * from film
 where replacement_cost IN(10.99,12.99,16.99);

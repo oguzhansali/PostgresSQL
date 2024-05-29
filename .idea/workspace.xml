@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/Week5/DISTINCTandCOUNT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/LIMITandOFFSET" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/OrderBy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/ödev5.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5/BetweenIn" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/BetweenIn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5/DISTINCTandCOUNT" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/DISTINCTandCOUNT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5/LIKEandILIKE" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/LIKEandILIKE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5/ödev3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/ödev3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5/ödev4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/ödev4.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,24 +23,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2h6pAfECcFslyjoI1mtnIGdteYF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/oguzh/IdeaProjects/PostgresSQL/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/oguzh/IdeaProjects/PostgresSQL/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716928515223</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <option name="closed" value="true" />
+      <created>1716930830020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716930830020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

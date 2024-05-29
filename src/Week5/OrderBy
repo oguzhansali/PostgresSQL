@@ -1,0 +1,22 @@
+SELECT * FROM film
+ORDER BY title ASC;//Alfabetik sıraya göre sıralanacak.
+
+select * from film
+order by title desc;//Alfabenin 'tersinde' sıralanacaktır.
+
+select * from film
+order by length desc ;//Aşağıdan yukarı sıralanır.
+
+select title,length from film
+order by length desc;
+
+select title,rental_rate,length from film
+order by rental_rate ASC, length desc;
+
+select title,rental_rate,length from film
+where title LIKE 'A%'
+order by rental_rate asc, length desc;
+
+select * from film
+where rating='G'
+order by length desc;
