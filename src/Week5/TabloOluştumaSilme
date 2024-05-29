@@ -1,0 +1,73 @@
+--CREATE TABLE <table_name>(
+--	<column_name> <data_type> <constraint>,
+--	...
+--	<column_name> <data_type> <constraint>;
+--)
+//author adında tablo oluşturmak.
+CREATE TABLE author(
+	id SERIAL PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,//first_name adında sütun 50 karater girlebilir ve boş olamaz.
+	last_name VARCHAR(50) NOT NULL,
+	email VARCHAR(100),
+	birthday DATE
+);
+
+//Tablo içine veri göndermek.
+INSERT INTO author(first_name,last_name,email,birtday)
+VALUES
+	('Haruki','Murukami','haruki@marukami.com','1948-11-87'),
+	('Sabahattin','Ali','sabahattin@ali.com','19414-11-87'),
+	('Orhan','Pamuk','orhan@pamuk.com','1950-11-87'),
+	('Halide Edip','Adıvar','halideedip@adıvar.com','1988-11-87'),
+	('Zygmunt','Haseki','zygmunt@haseki.com','1911-11-87');
+
+//2. bir tablo oluşturma author gibi.Tablonun yapısı koopyalanır veriler değil.
+CREATE TABLE author2(LIKE author);
+
+//author tablsoundna author tablosunua  istenilen verileri gönderme.
+INSERT INTO author2
+select * from author
+where first_name='Sabahattin';
+
+//author tablosundaki butun veirleri author3 e koplyalar.
+CREATE TABLE author3 as
+varselect * from author;
+
+//Tablo silerken  eğer tablo varsa sil anlamında kullanılır.
+drop table IF EXISTS author4;
+
+
+//Güncellemek istedğimiz satırdaki sutunlarla birlikte
+--UPDATE <tablo_name>
+--SET column1=value1,
+--	column2=value2,
+--	......
+--where condition;
+
+UPDATE author
+SET first_name='Emrah Safa',
+	last_name='Gürkan',
+	email='emrah@safa.com',
+	birthday='1980-03-03'
+where id =10;
+
+//ismi A ile başlayan isimleri değiş
+UPDATE author
+SET first_name='xxxx',
+	last_name='yyyy'
+where first_name LIKE 'A
+
+---RETURNING-----
+//ismi belitrilen süütndaki verilerin başka verisini değiştirebilmek.
+UPDATE author
+SET last_name = 'UPDATE'
+where first_name='Orhan'
+RETURNING *;//first_name si Orhan olan veriiynin last_name ini UPDATE olarak değişir.
+
+
+//SATIR SİLME
+--DELETE FROM <table_name>
+--WHERE condition;
+
+DELETE from author
+where id=6
