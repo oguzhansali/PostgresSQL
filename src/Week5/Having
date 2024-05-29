@@ -1,0 +1,19 @@
+select rental_rate,Count(*) from film
+group by rental_rate
+having count(*) >325;
+
+
+select rental_rate,Count(*) from film
+where  rental_rate!=2.99
+group by rental_rate ;
+
+--SELECT staff_id, count(*) FROM payment
+--group by staff_id
+--having count(*)>7300;
+
+select customer_id,SUM(amount) from payment
+group by customer_id
+having sum(amount)>100
+order by SUM(amount)desc
+LIMIT 1;
+

@@ -1,0 +1,15 @@
+--SELECT rental_rate,COUNT(*) FROM film
+--group by rental_rate;
+
+--select rating,count(*) from film
+--group by rating;
+
+select replacement_cost,rental_rate, MIN(length) from film
+group by replacement_cost, rental_rate
+--order by replacement_cost,rental_rate desc;
+order by MIN(length)
+LIMIT 8;
+
+
+
+--select count (DISTINCT replacement_cost ) from film;
