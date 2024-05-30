@@ -1,0 +1,16 @@
+--SELECT title,first_name,last_name from author
+--LEFT JOIN book ON author.id=book.author_id;
+
+
+//author tablosunu alarak book tablosundaki istenileni alarak author tablosunda gösteriri.
+SELEFT author.first_name,author.last_name,book.title from author
+LEFT JOIN book ON author.id=book.author_id;
+
+//Aynı şekilde önceliği sağ taraftaki tabloya verir.Yani sağ taraftaki istenişlen tüm verileri alır ve sol taraftaki istenilen verilerde sağdaki tabloda ona karşılık gelen veri varsa onu geitir yoksa null alır.
+SELECT author.first_name,author.last_name,book.title from author
+RIGHT JOIN book ON author.id=book.author_id;
+
+
+//Her tablodaki tüm verileri alır ve ekler.--FULL JOIN
+SELECT author.first_name,author.last_name,book.title from book
+FULL JOIN author ON author.id=book.author_id;

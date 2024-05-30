@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/Week5/INNERJOIN" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/ödev9.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/LEFTJOIN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/ödev10.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717027502409</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=".">
+      <option name="closed" value="true" />
+      <created>1717075575442</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717075575442</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
