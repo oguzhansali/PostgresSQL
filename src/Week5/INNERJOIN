@@ -1,0 +1,14 @@
+--SELECT title, first_name,last_name from book
+--INNER JOIN author ON book.author_id=author.id;
+
+--select * from book
+--INNER JOIN author ON book.author_id=author.id;
+
+--select * from book
+--JOIN author ON book.author_id=author.id;
+
+--SELECT book.title, author.first_name, author.last_name from book
+--INNER JOIN author ON book.author_id=author.id;
+
+--SELECT book.title, author.first_name, author.last_name from author
+--INNER JOIN book ON book.author_id=author.id;

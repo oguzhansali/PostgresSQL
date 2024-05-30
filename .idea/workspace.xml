@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/Week5/CHECK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/NOTNULLandALTER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/PRIMARYFOREIGNKEY" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/UNIQUE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/VeriTipleri2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/VerıTıpler1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/INNERJOIN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/ödev9.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717016222782</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=".">
+      <option name="closed" value="true" />
+      <created>1717027502409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717027502409</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
