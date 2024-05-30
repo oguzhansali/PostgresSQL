@@ -1,0 +1,34 @@
+
+//birden fazla kitap id si sorgulandığı zaman tümünü alabilmek için any kullanılır.
+SELECT first_name,last_name from author
+where id = ANY
+(
+	SELECT id from book
+	where title ='Australian Atomic Confessions' OR title='Peppermint Candy (Bakha satang)'
+);
+
+
+// seçilen kitapların id leri üst sorgudaki gibi tüm id lerler eşleşmediği için boş  veri gelecek.
+SELECT first_name,last_name from author
+where id = ALL
+(
+	SELECT id from book
+	where title ='Australian Atomic Confessions' OR title='Peppermint Candy (Bakha satang)'
+);
+
+
+//İD Sİ girilen kitapların ıd sinden buyuk olan kitapları yazdırır.
+SELECT first_name,last_name from author
+where id > ANY
+(
+	SELECT id from book
+	where title ='Australian Atomic Confessions' OR title='Peppermint Candy (Bakha satang)'
+);
+
+//ALL durumunda girilen kitapların id sinin en büyüğünden büyük id deki  verileri verir.
+SELECT first_name,last_name from author
+where id > ALL
+(
+	SELECT id from book
+	where title ='Australian Atomic Confessions' OR title='Peppermint Candy (Bakha satang)'
+);

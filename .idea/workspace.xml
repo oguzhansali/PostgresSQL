@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment="." />
+    <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/Week5/AnyALL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/SUBQUERIES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/ödev12.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +38,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5\JOINYapılarıÖdevleri" />
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5" />
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5\SQLTemelleri2" />
     </key>
@@ -165,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717082795110</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=".">
+      <option name="closed" value="true" />
+      <created>1717083499059</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717083499059</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

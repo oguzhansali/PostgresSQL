@@ -1,0 +1,28 @@
+//ALT SORGU
+
+//içteki sorgudan dıaşrı doğru sorgulama yapılır
+//iç sorgudaki High Noon kitabının sayfa sayısından buyuk kitapları verir.
+SELECT * FROM book
+where page_number >
+(
+Select page_number from book
+where title = 'High Noon'
+);
+
+//
+SELECT title , page_number, (SELECT MAX(page_number) from book)
+from book
+where page_number>
+(
+	select page_number from book
+	where title='High Noon'
+);
+
+//MAX page_number dan page_numberı çıkararak differ sutununa ekler.
+SELECT title , page_number, (SELECT MAX(page_number) from book),((SELECT MAX(page_number) from book)-page_number) as differ
+from book
+where page_number>
+(
+	select page_number from book
+	where title='High Noon'
+);
