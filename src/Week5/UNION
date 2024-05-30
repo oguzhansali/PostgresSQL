@@ -1,0 +1,21 @@
+//SELECT İLE ELDE ETTİĞİMİZ BİRDEN FAZAL SORGUYU ELDE EDER.
+(
+SELECT * FROM book
+ORDER BY  page_number DESC
+LIMIT 5
+)
+UNION ALL
+(
+select * from book
+order by title
+LIMIT 5
+);
+
+//SUTUN sayıları ve veri tipleri aynı olması lazım aksi halde hata alırız.
+(
+SELECT id,email FROM author
+)
+UNION
+(
+select id,title from book
+);

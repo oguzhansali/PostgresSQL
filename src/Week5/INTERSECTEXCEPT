@@ -1,0 +1,26 @@
+//Kesişimini alır iki tablonun.İki tablonun ortak değerlerini alır.
+(
+SELECT * FROM book
+ORDER BY  page_number DESC
+LIMIT 10
+)
+INTERSECT
+(
+select * from book
+order by title
+LIMIT 10
+);
+
+
+//Except sorgumuzda ilk tabloda bulunan ikinci tabloda bulunmayan verileri alırıız.İstenilen Veri tipleri ve sutun sayıları aynı olmak zorunda.
+(
+SELECT * FROM book
+ORDER BY  page_number DESC
+LIMIT 5
+)
+EXCEPT
+(
+select * from book
+order by title
+LIMIT 5
+);
