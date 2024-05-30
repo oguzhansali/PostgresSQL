@@ -1,0 +1,15 @@
+CREATE TABLE test(
+	real_type REAL,
+	double_type DOUBLE PRECISION,
+	numeric_type NUMERIC
+);
+
+INSERT INTO test
+VALUES(
+	1.2321321312312312,
+	1.2321321312312312,
+	1.2321321312312312
+);
+--select * from test;
+//sayısal ifadelede tam rakamlar için INTEGER
+//ondalık sayılar için NUMERIC veri tipleri

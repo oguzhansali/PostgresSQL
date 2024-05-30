@@ -1,0 +1,11 @@
+//author table daki ıd ye reference vermek için oluşturuldu.
+CREATE TABLE book(
+	id SERIAL PRIMARY KEY,
+	title VARCHAR(100) NOT NULL,
+	page_number INTEGER NOT NULL,
+	author_id INTEGER REFERENCES author(id)
+);
+
+//PrimaryKey ve ForeignKey ile tablolar  JOIN ile birleştirildi.
+SELECT * FROM book
+JOIN author ON author.id = book.author_id;

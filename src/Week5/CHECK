@@ -1,0 +1,37 @@
+
+--INSERT INTO users(username,email,age)
+--VALUES
+	--('GENERAL','geno@gmail.com',-22);
+
+--ALTER TABLE users
+--ADD CHECK (age>18);
+
+--DELETE FROM users
+--WHERE id=8;
+
+--ALTER TABLE users
+--ADD CHECK(age>18);
+
+--INSERT INTO users(username,email,age)
+--VALUES
+	--('GENERAL3','geno@gmail.com',32);
+
+
+--SELECT * FROM users;
+
+
+
+//Tablo oluştururken eklenmesi gereken kosullar bu şekilde eklenmelidir.
+--CREATE TABLE products(
+--	products_no INTEGER,
+--	name text,
+--	price numeric CHECK(price>0),
+--	discounted_price numeric CHECK (discounted_price>0),
+--	CHECK(price>discounted_price)
+--);
+
+INSERT INTO products(products_no,name,price,discounted_price)
+VALUES
+	(1,'TEST1 PRODUCTS',1500,12);
+
+SELECT * FROM products;

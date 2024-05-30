@@ -1,0 +1,15 @@
+//NOT NULL  yapma işlemi gibi bir sütunu Unique yapmak istiyorsak o sütunda unique olmayan verileri UPDATE etmemiz  veya değişmemiz gerekir.
+
+--INSERT INTO users(username,email,age)
+--VALUES
+	--('tester1','tester@gmail.com',44);
+
+--ALTER  TABLE users
+--ADD UNIQUE (email);
+
+INSERT INTO users(username,email,age)
+VALUES
+	('tester1','tester3@gmail.com',44);
+
+
+SELECT * FROM users;

@@ -1,0 +1,21 @@
+--SELECT('Loren'::CHAR(10));
+--SELECT ('lorem ipsum dolor sit amet'::CHAR(10));
+--SELECT('Lorem'::VARCHAR(10));
+--SELECT('Lorem ipsum dolor sit amet'::VARCHAR(10));
+--SELECT('Lorem ipsum dolor sit amet'::VARCHAR);
+--SELECT('Lorem ipsum dolor sit amet'::TEXT);
+
+--SELECT ('NO'::BOOLEAN);
+--SELECT ('TRUE'::BOOLEAN);
+--SELECT (NULL::BOOLEAN);
+
+--SELECT('1999-12-03'::DATE);
+--SELECT('DEC-03-1983'::DATE);
+--SELECT('DEC 03 1983'::DATE);
+--SELECT('1980 December 03'::DATE);
+
+--SELECT('03:44'::TIME);
+--SELECT('03:44 AM'::TIME);
+--SELECT('03:44 PM'::TIME);
+--SELECT('02:16'::TIME WITH TIME ZONE);
+--SELECT('1980 December 03 02:16:07'::TIMESTAMP)
