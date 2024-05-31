@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/Week5/AnyALL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/SUBQUERIES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/ödev12.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/BufferedStream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/InputOutputIslemleri/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/InputOutputIslemleri/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,21 +34,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/oguzh/IdeaProjects/PostgresSQL/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Week5.BufferedStream.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/oguzh/IdeaProjects/PostgresSQL/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5\JOINYapılarıÖdevleri" />
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5" />
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5\SQLTemelleri2" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Week5.BufferedStream.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5.InputOutputIslemleri.Main" />
+      <module name="PostgresSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week5.InputOutputIslemleri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week5.BufferedStream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5.BufferedStream.Main" />
+      <module name="PostgresSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week5.BufferedStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Week5.BufferedStream.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -179,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717083499059</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=".">
+      <option name="closed" value="true" />
+      <created>1717092318399</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717092318399</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
