@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3371fcc1-6d11-4315-bba2-24fb8d04fcc1" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/Week5/BufferedStream/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/InputOutputIslemleri/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week5/InputOutputIslemleri/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week5/ReadFile/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Week5.BufferedStream.Main.executor": "Run",
+    "Application.Week5.ReadFile.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -47,12 +46,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5\ReadFile" />
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5\JOINYapılarıÖdevleri" />
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5" />
       <recent name="C:\Users\oguzh\IdeaProjects\PostgresSQL\src\Week5\SQLTemelleri2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Week5.BufferedStream.Main">
+  <component name="RunManager" selected="Application.Week5.ReadFile.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week5.InputOutputIslemleri.Main" />
       <module name="PostgresSQL" />
@@ -79,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Week5.ReadFile.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5.ReadFile.Main" />
+      <module name="PostgresSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week5.ReadFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Week5.ReadFile.Main" />
         <item itemvalue="Application.Week5.BufferedStream.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -230,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717092318399</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=".">
+      <option name="closed" value="true" />
+      <created>1717189801840</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717189801841</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
