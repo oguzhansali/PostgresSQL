@@ -11,7 +11,7 @@ public class Main {
 
         try {
             //Dosyaya yazma.
-            FileWriter fileWriter = new FileWriter("notepad.txt",true);//Append modu.
+            FileWriter fileWriter = new FileWriter("notepad.txt",true);//Append modu
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             System.out.println("Enter the text(write 'exit' to stop): ");
